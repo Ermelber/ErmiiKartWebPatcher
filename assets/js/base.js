@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function getCorsProxyUrl(url) {
-    // if (window.location.host == "ermelber.github.io")
-    //     return CORS_PROXY_HAROOHIE + url;
+    if (window.location.host == "ermelber.github.io")
+        return decodeURI(CORS_PROXY_HAROOHIE + url);
     return CORS_PROXY_FREE + encodeURIComponent(url);
 }
 
