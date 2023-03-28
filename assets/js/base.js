@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function getCorsProxyUrl(url) {
-    if (window.location.host == "ermelber.github.io")
-        return CORS_PROXY_HAROOHIE + url;
+    // if (window.location.host == "ermelber.github.io")
+    //     return CORS_PROXY_HAROOHIE + url;
     return CORS_PROXY_FREE + encodeURIComponent(url);
 }
 
@@ -90,11 +90,7 @@ function getRomDigest() {
 function downloadPatch(patch) {
     let fileUri = getCorsProxyUrl(patch.fileUri);
 
-    return fetch(fileUri, {
-        headers: {
-            "Origin": window.location.protocol + '//' + window.location.host
-        }
-    })
+    return fetch(fileUri)
         .then(result => result.blob())
         .then(blob => {
             var file = blob;
