@@ -92,7 +92,7 @@ function downloadPatch(patch) {
 
     return fetch(fileUri, {
         headers: {
-            "Origin": ""
+            "Origin": window.location.protocol + '//' + window.location.host
         }
     })
         .then(result => result.blob())
