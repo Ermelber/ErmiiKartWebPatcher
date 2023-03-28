@@ -14,6 +14,34 @@
         ]
     },
     {
+        "name": "Mario Kart DS (US)",
+        "digest": "86b2982e7b993584ed34bf0fce9f450bcf97647bf90786d94628956083f8bb7e",
+        "imgFile": "mkds_eur.png",
+        "patches": 
+        [
+            {
+                "name": "Ermii Kart DS Legacy Edition 1.0",
+                "fileName": "usa-le.xdelta",
+                "fileUri": "https://github.com/Ermelber/ErmiiKartDS-release/releases/download/v1.0.0-LE/usa-le.xdelta",
+                "patchedRomFileName": "Ermii Kart DS - Legacy Edition (1.0).nds"
+            }
+        ]
+    },
+    {
+        "name": "Mario Kart DS (US)",
+        "digest": "0ea8a91a0ae3e9db26337c25a6a8568f6737fa36c1e0761988c0fa0ecbf210ed",
+        "imgFile": "mkds_eur.png",
+        "patches": 
+        [
+            {
+                "name": "Ermii Kart DS Legacy Edition 1.0",
+                "fileName": "usa-le.xdelta",
+                "fileUri": "https://github.com/Ermelber/ErmiiKartDS-release/releases/download/v1.0.0-LE/usa-le.xdelta",
+                "patchedRomFileName": "Ermii Kart DS - Legacy Edition (1.0).nds"
+            }
+        ]
+    },
+    {
         "name": "Ermii Kart DS (b1-r)",
         "digest": "aea821ada922be0d9c4a3d6a59a2c1ff175220e1f3867b3eaae3d9d91ac337a1",
         "imgFile": "ekds_b1.png",
